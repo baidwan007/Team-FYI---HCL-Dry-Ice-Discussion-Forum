@@ -5,7 +5,7 @@ const express = require('express');
 const app = express();
 const db = require('./db');
 const path = require('path');
-
+const port = process.env.PORT || 2352;
 const bodyParser = require('body-parser');
 //app.use('/', express.static(__dirname + "/public"));
 app.use(bodyParser.json());
@@ -102,7 +102,7 @@ app.post('/adown', (req, res) => {
 
 app.use('/', express.static(__dirname + "/public"));
 
-app.listen(process.env.PORT ||2352 , () => {console.log('Started on 2352')});
+app.listen(port, () => {console.log('Started on 2352')});
 
 // app.post('/todos/edit', (req, res) => {
 //
