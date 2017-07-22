@@ -20,7 +20,9 @@ app.set("views", path.join(__dirname, "views"));
 //     res.send(result)
 //     });
 // });
-
+app.get('/',(req,res)=>{
+    res.redirect('/all');
+})
 app.get('/all', (req,res) => {
     db.fetchTasks(function (result) {
         console.log(result);
