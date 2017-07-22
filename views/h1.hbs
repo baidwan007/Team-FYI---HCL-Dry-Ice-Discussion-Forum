@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form action="/qtest/addq" method="post">
+    <input type="text" name="title" id="newtodo">
+    <input type="text" name="descript" id="newtodo1">
+    <input type="submit" id="add" value="ADD">
+</form>
+
+<br>
+
+<ul id="todolist">
+    {{#each todos as |todo|}}
+        <li> {{todo.title}} </li>
+        <li> {{todo.descript}} </li>
+    {{/each}}
+</ul>
+
+</body>
+</html>
