@@ -11,7 +11,7 @@ let dbconf = {
     host: '43.255.154.27',
     user: 'arpitgoyal',
     port: 3306,
-    password: '',
+    password: 'arpit4087263',
     database: 'enactusdtu',
 };
 
