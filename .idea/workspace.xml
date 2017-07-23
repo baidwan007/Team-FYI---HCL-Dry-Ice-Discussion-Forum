@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55590b8b-44c2-492a-b4d2-376b1794710e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.js" afterPath="$PROJECT_DIR$/db.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,7 +28,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="203">
               <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-              <folding />
+              <folding>
+                <marker date="1500801805224" expanded="true" signature="0:442" ph="{&quot;name&quot;: &quot;hcl&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,8 +92,8 @@
       <file leaf-file-name="db.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="142" column="42" lean-forward="false" selection-start-line="142" selection-start-column="42" selection-end-line="142" selection-end-column="42" />
+            <state relative-caret-position="-2141">
+              <caret line="79" column="23" lean-forward="false" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
@@ -347,12 +345,12 @@
       <workItem from="1500450500107" duration="44698000" />
       <workItem from="1500713725588" duration="11205000" />
       <workItem from="1500743053411" duration="1058000" />
-      <workItem from="1500791135058" duration="5824000" />
+      <workItem from="1500791135058" duration="8032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62785000" />
+    <option name="totallyTimeSpent" value="64993000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1001" extended-state="6" />
@@ -399,7 +397,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding />
+          <folding>
+            <marker date="1500801805224" expanded="true" signature="0:442" ph="{&quot;name&quot;: &quot;hcl&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -500,7 +500,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1500801805224" expanded="true" signature="0:442" ph="{&quot;name&quot;: &quot;hcl&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -620,7 +622,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding />
+          <folding>
+            <marker date="1500801805224" expanded="true" signature="0:442" ph="{&quot;name&quot;: &quot;hcl&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -702,8 +706,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="142" column="42" lean-forward="false" selection-start-line="142" selection-start-column="42" selection-end-line="142" selection-end-column="42" />
+        <state relative-caret-position="-2141">
+          <caret line="79" column="23" lean-forward="false" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>

@@ -39,6 +39,7 @@ function fetchTasks(done) {
         function (err, result, fields) {
             if (err) throw err;
             done(result);
+            conn.end();
         }
     );
 }
@@ -51,6 +52,7 @@ function fetchCatTask(cat,done) {
         function (err, result, fields) {
             if (err) throw err;
             done(result);
+            conn.end();
         }
     );
 }
@@ -63,6 +65,7 @@ function fetchq(qid,done) {
         function (err, result, fields) {
             if (err) throw err;
             done(result);
+            conn.end();
         }
     );
 }
@@ -74,6 +77,7 @@ function fetchatoq(qid,done) {
         function (err, result, fields) {
             if (err) throw err;
             done(result);
+            conn.end();
         }
     );
 }
@@ -155,7 +159,7 @@ function handleDisconnect() {
         if(err.code === 'PROTOCOL_CONNECTION_LOST') { // Connection to the MySQL server is usually
             handleDisconnect();                         // lost due to either server restart, or a
         } else {                                      // connnection idle timeout (the wait_timeout
-            throw err;                                  // server variable configures this)
+            handleDisconnect();                                  // server variable configures this)
         }
     });
 }
