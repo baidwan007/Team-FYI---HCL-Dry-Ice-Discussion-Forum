@@ -21,7 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.hbs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.hbs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/home.hbs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="203">
@@ -46,18 +46,18 @@
       <file leaf-file-name="addq.hbs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/addq.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12383">
-              <caret line="427" column="73" lean-forward="false" selection-start-line="427" selection-start-column="73" selection-end-line="427" selection-end-column="73" />
+            <state relative-caret-position="348">
+              <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ans.hbs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ans.hbs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/ans.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11832">
-              <caret line="408" column="73" lean-forward="false" selection-start-line="408" selection-start-column="73" selection-end-line="408" selection-end-column="73" />
+            <state relative-caret-position="58">
+              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -168,8 +168,6 @@
         <option value="$PROJECT_DIR$/public_html/index.html" />
         <option value="$PROJECT_DIR$/public_html/home.js" />
         <option value="$PROJECT_DIR$/views/index.html" />
-        <option value="$PROJECT_DIR$/views/ans.hbs" />
-        <option value="$PROJECT_DIR$/views/addq.hbs" />
         <option value="$PROJECT_DIR$/Procfile.txt" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/server.js" />
@@ -177,6 +175,8 @@
         <option value="$PROJECT_DIR$/serverlocal.js" />
         <option value="$PROJECT_DIR$/db.js" />
         <option value="$PROJECT_DIR$/views/home.hbs" />
+        <option value="$PROJECT_DIR$/views/addq.hbs" />
+        <option value="$PROJECT_DIR$/views/ans.hbs" />
       </list>
     </option>
   </component>
@@ -353,12 +353,12 @@
       <workItem from="1500450500107" duration="44698000" />
       <workItem from="1500713725588" duration="11205000" />
       <workItem from="1500743053411" duration="1058000" />
-      <workItem from="1500791135058" duration="11185000" />
+      <workItem from="1500791135058" duration="11578000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68146000" />
+    <option name="totallyTimeSpent" value="68539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1001" extended-state="6" />
@@ -628,22 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/addq.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12383">
-          <caret line="427" column="73" lean-forward="false" selection-start-line="427" selection-start-column="73" selection-end-line="427" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/ans.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11832">
-          <caret line="408" column="73" lean-forward="false" selection-start-line="408" selection-start-column="73" selection-end-line="408" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/02_topic.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9106">
@@ -718,6 +702,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="382" column="49" lean-forward="false" selection-start-line="382" selection-start-column="49" selection-end-line="382" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/addq.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/ans.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding />
         </state>
       </provider>
