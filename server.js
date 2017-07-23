@@ -5,9 +5,18 @@ const express = require('express');
 const app = express();
 const db = require('./db');
 const path = require('path');
-const port = process.env.PORT || 2352;
+const port = process.env.PORT || 3000;
 const bodyParser = require('body-parser');
 //app.use('/', express.static(__dirname + "/public"));
+// var ngrok = require('ngrok');
+//
+// //ngrok.connect(function (err, url) {}); // https://757c1652.ngrok.io -> http://localhost:80
+// ngrok.connect(3000, function (err, url) {if (err) throw err
+// console.log(url)}); // https://757c1652.ngrok.io -> http://localhost:9090
+//ngrok.connect({proto: 'tcp', addr: 22}, function (err, 0.0.0.0:3000) {}); // tcp://0.tcp.ngrok.io:48590
+
+
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
@@ -102,7 +111,7 @@ app.post('/adown', (req, res) => {
 
 app.use('/', express.static(__dirname + "/public"));
 
-app.listen(port, () => {console.log('Started on 2352')});
+app.listen(port,'0.0.0.0', () => {console.log('Started on 2352')});
 
 // app.post('/todos/edit', (req, res) => {
 //
