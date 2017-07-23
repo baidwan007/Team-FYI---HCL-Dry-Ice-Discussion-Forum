@@ -11,7 +11,7 @@ let dbconf = {
     host: '43.255.154.27',
     user: 'arpitgoyal',
     port: 3306,
-    password: '',
+    password: 'arpit4087263',
     database: 'enactusdtu',
 };
 
@@ -159,7 +159,7 @@ function handleDisconnect() {
         if(err.code === 'PROTOCOL_CONNECTION_LOST') { // Connection to the MySQL server is usually
             handleDisconnect();                         // lost due to either server restart, or a
         } else {                                      // connnection idle timeout (the wait_timeout
-            handleDisconnect();                                  // server variable configures this)
+            throw err//handleDisconnect();                                  // server variable configures this)
         }
     });
 }
